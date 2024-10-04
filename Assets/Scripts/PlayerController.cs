@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
         {
             count++;
             other.gameObject.SetActive(false);
+            SetCountText();
         }
     }
 
